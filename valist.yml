@@ -1,0 +1,11 @@
+account: nasdf
+project: example-go-multi-platform
+release: v0.0.1
+path: ./dist
+install:
+  name: hello
+  darwin_amd64: dist/darwin-amd64/hello
+  darwin_arm64: dist/darwin-arm64/hello
+  linux_amd64: dist/linux-amd64/hello
+  linux_arm64: dist/linux-arm64/hello
+  windows_amd64: dist/linux-amd64/hello.exe
