@@ -18,9 +18,9 @@ jobs:
           project: example-go-multi-platform
           release: ${{ github.ref_name }}
           path: './dist'
-          install_name: hello
-          install_darwin_amd64: darwin-amd64/hello
-          install_darwin_arm64: darwin-arm64/hello
-          install_linux_amd64: linux-amd64/hello
-          install_linux_arm64: linux-arm64/hello
-          install_windows_amd64: linux-amd64/hello.exe
+          install-name: hello
+          install-darwin-amd64: darwin-amd64/hello
+          install-darwin-arm64: darwin-arm64/hello
+          install-linux-amd64: linux-amd64/hello
+          install-linux-arm64: linux-arm64/hello
+          install-windows-amd64: linux-amd64/hello.exe
