@@ -21,7 +21,7 @@ jobs:
           go-version: '^1.17'
       - uses: actions/checkout@v2
       - run: make all
-      - uses: valist-io/valist-github-action@dev
+      - uses: valist-io/valist-github-action@v2.3.0
         with:
           private-key: ${{ secrets.PRIVATE_KEY }}
           account: <your-account-name-here>
